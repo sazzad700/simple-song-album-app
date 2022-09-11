@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/max"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- this scrollview linear -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!-- this album layout -->
+            <LinearLayout
+                android:id="@+id/karar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:weightSum="3"
+                android:layout_marginBottom="10dp"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/download"
+                    />
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="কারার ঐ লৌহ কপাট"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গানটি শুনার জন্য ক্লিক করুন >"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- this album layout -->
+            <LinearLayout
+                android:id="@+id/durbar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:weightSum="3"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/download"
+                    />
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="দুর্বার গীরি কান্তার"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গানটি শুনার জন্য ক্লিক করুন >"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- this album layout -->
+            <LinearLayout
+                android:id="@+id/shikol"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:weightSum="3"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/download"
+                    />
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="এই শিকল পরার ছল"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গানটি শুনার জন্য ক্লিক করুন >"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- this album layout -->
+            <LinearLayout
+                android:id="@+id/cholchol"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:weightSum="3"
+
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/download"
+                    />
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="চল চল চল"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গানটি শুনার জন্য ক্লিক করুন >"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
